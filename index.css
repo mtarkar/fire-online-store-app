@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 25px;
+    background: #f8f8f8;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.gradient-border {
+    border: 3px solid transparent;
+    border-radius: 15px;
+    background:
+        linear-gradient(#f8f8f8, #f8f8f8) padding-box,
+        linear-gradient(90deg, #ff4e50, #f9d423) border-box;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.navbar .logo {
+    font-size: 22px;
+}
+
+.navbar .nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #444;
+    font-weight: 500;
+}
+
+.navbar .nav-links a:hover {
+    color: #ff4e50;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    margin: 20px auto;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.shop-btn {
+    background: linear-gradient(90deg, #ff4e50, #f9d423);
+    border: none;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.shop-btn:hover {
+    opacity: 0.9;
+}
+
+
+.product-section {
+    text-align: center;
+}
+
+.product-section h2 {
+    font-size: 26px;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 200px;
+    transition: transform 0.3s;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.product-card p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff4e50;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+
+.footer {
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+}
